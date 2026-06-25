@@ -87,7 +87,7 @@ export default function FlyerView({ flyer }) {
         )}
 
         <div className="flyer-footer">
-          Generado en ayuda.roymer.dev • {flyer.formattedDate}
+          Creado con Voz de Ayuda • {flyer.formattedDate}
         </div>
       </div>
 

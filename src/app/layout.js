@@ -12,10 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ayuda Emergencia Venezuela | Generador de Flyers",
+  title: "Voz de Ayuda | Generador de Flyers",
   description: "Plataforma de respuesta rápida. Genera y difunde flyers de personas desaparecidas, solicitudes de insumos o estado de emergencia de manera instantánea y optimizada.",
   openGraph: {
-    title: "Ayuda Emergencia Venezuela",
+    title: "Voz de Ayuda",
     description: "Crea y comparte flyers de emergencia de forma instantánea. Sistema optimizado para bajas conexiones.",
     type: "website",
     locale: "es_VE",

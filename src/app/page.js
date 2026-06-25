@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <div className="container text-center" style={{ borderTop: '4px solid var(--accent)' }}>
-        <h1 className="title">Ayuda Emergencia</h1>
+        <h1 className="title">Voz de Ayuda</h1>
         <p className="subtitle">
           Generador de flyers de respuesta rápida. Completa los datos para crear un cartel con información crucial.
         </p>

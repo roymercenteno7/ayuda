@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
 
-export const alt = 'Ayuda Emergencia Venezuela';
+export const alt = 'Voz de Ayuda';
 export const size = {
   width: 1200,
   height: 630,
@@ -31,7 +31,7 @@ export default function Image() {
           A
         </div>
         <div style={{ display: 'flex', fontSize: 40, fontWeight: 'normal', opacity: 0.9 }}>
-          Ayuda Emergencia VZLA
+          Voz de Ayuda VZLA
         </div>
       </div>
     ),
