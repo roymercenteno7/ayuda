@@ -68,7 +68,7 @@ export default function FlyerView({ flyer }) {
           <div className="flyer-contacts">
             {flyer.phones?.length > 0 && (
               <div style={{ marginBottom: '1rem' }}>
-                <h3>📞 TELÉFONOS DE CONTACTO:</h3>
+                <h3>TELÉFONOS DE CONTACTO:</h3>
                 {flyer.phones.map((phone, i) => (
                   <p key={i}>{phone}</p>
                 ))}
@@ -77,7 +77,7 @@ export default function FlyerView({ flyer }) {
 
             {flyer.socials?.length > 0 && (
               <div>
-                <h3>🌐 REDES SOCIALES:</h3>
+                <h3>REDES SOCIALES:</h3>
                 {flyer.socials.map((social, i) => (
                   <p key={i}>{social}</p>
                 ))}
@@ -97,13 +97,13 @@ export default function FlyerView({ flyer }) {
           onClick={handleDownload}
           disabled={downloading}
         >
-          {downloading ? 'Generando...' : '📥 Descargar Imagen'}
+          {downloading ? 'Generando...' : 'Descargar Imagen'}
         </button>
         <button 
           className="btn" 
           onClick={handleCopyLink}
         >
-          {copied ? '¡Enlace copiado!' : '🔗 Copiar Enlace'}
+          {copied ? '¡Enlace copiado!' : 'Copiar Enlace'}
         </button>
       </div>
     </div>
